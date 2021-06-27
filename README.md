@@ -7,4 +7,4 @@ Several auto install scripts will be resented here
 ```bash <(curl -s https://raw.githubusercontent.com/Sayrix/AutoInstall/main/nodejs15.x.sh)```
 
 ### Install NodeJS v15.x and [PM2](https://pm2.io)
-```soon```
+```bash <(curl -s https://raw.githubusercontent.com/Sayrix/AutoInstall/main/nodejs-pm2.sh)```
