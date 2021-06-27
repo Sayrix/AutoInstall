@@ -6,5 +6,5 @@ Several auto install scripts will be resented here
 ### NodeJS v16.x & NPM
 ```bash <(curl -s https://raw.githubusercontent.com/Sayrix/AutoInstall/main/nodejs16.x.sh)```
 
-### Install NodeJS v15.x and [PM2](https://pm2.io)
+### Install NodeJS v16.x and [PM2](https://pm2.io)
 ```bash <(curl -s https://raw.githubusercontent.com/Sayrix/AutoInstall/main/nodejs-pm2.sh)```
