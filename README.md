@@ -7,5 +7,9 @@ Several auto install scripts will be resented here
 
 ### NodeJS v14.x & NPM
 ```bash <(curl -s https://raw.githubusercontent.com/Sayrix/AutoInstall/main/nodejs14.x.sh)```
-### NodeJS v16.x & NPM
+
+### NodeJS v16.x & [NPM](https://npmjs.com)
 ```bash <(curl -s https://raw.githubusercontent.com/Sayrix/AutoInstall/main/nodejs16.x.sh)```
+
+### NodeJS v14.x & [YARN](https://yarnpkg.com)
+```bash <(curl -s https://raw.githubusercontent.com/Sayrix/AutoInstall/main/nodejs14.x-yarn.sh)```
