@@ -13,3 +13,6 @@ Several auto install scripts will be resented here
 
 ### NodeJS LTS (v14) & [YARN](https://yarnpkg.com)
 ```bash <(curl -s https://raw.githubusercontent.com/Sayrix/AutoInstall/main/nodejslts-yarn.sh)```
+
+### Java 16
+```bash <(curl -s https://raw.githubusercontent.com/Sayrix/AutoInstall/main/java-16.sh)```
