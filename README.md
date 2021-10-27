@@ -6,9 +6,19 @@ add-apt-repository : command not found
 
 ```sudo apt-get install software-properties-common```
 
-### Install NodeJS v16.x and [PM2](https://pm2.io)
+### Install NodeJS v17.x and [PM2](https://pm2.io)
 ```sh
 bash <(curl -s https://raw.githubusercontent.com/Sayrix/AutoInstall/main/nodejs-pm2.sh)
+```
+
+### NodeJS v16.x & [NPM](https://npmjs.com)
+```sh
+bash <(curl -s https://raw.githubusercontent.com/Sayrix/AutoInstall/main/nodejs16.x.sh)
+```
+
+### NodeJS v17.x & [NPM](https://npmjs.com)
+```sh
+bash <(curl -s https://raw.githubusercontent.com/Sayrix/AutoInstall/main/nodejs17.x.sh)
 ```
 
 ### NodeJS LTS (v14) & [NPM](https://npmjs.com)
@@ -16,10 +26,6 @@ bash <(curl -s https://raw.githubusercontent.com/Sayrix/AutoInstall/main/nodejs-
 bash <(curl -s https://raw.githubusercontent.com/Sayrix/AutoInstall/main/nodejs-lts.sh)
 ```
 
-### NodeJS v16.x & [NPM](https://npmjs.com)
-```sh
-bash <(curl -s https://raw.githubusercontent.com/Sayrix/AutoInstall/main/nodejs16.x.sh)
-```
 
 ### NodeJS LTS (v14) & [YARN](https://yarnpkg.com)
 ```sh
