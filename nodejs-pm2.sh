@@ -1,5 +1,5 @@
 cd ~
-curl -sL https://deb.nodesource.com/setup_16.x | sudo bash -
+curl -sL https://deb.nodesource.com/setup_17.x | sudo bash -
 sudo apt install nodejs -y
 sudo npm i pm2 -g
 node -v
