@@ -23,5 +23,5 @@ bash <(curl -s https://raw.githubusercontent.com/Sayrix/AutoInstall/main/nodejs1
 
 ### Java 16
 ```sh
-bash <(curl -s https://raw.githubusercontent.com/Sayrix/AutoInstall/main/java-16.sh)
+bash <(curl -s https://raw.githubusercontent.com/Sayrix/AutoInstall/main/java16.sh)
 ```
