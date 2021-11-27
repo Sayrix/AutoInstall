@@ -8,28 +8,17 @@ add-apt-repository : command not found
 
 ### Install NodeJS v17.x and [PM2](https://pm2.io)
 ```sh
-bash <(curl -s https://raw.githubusercontent.com/Sayrix/AutoInstall/main/nodejs-pm2.sh)
+bash <(curl -s https://raw.githubusercontent.com/Sayrix/AutoInstall/main/nodejs17.x-pm2.sh)
 ```
 
-### NodeJS v16.x & [NPM](https://npmjs.com)
+### NodeJS v17.x & [YARN](https://npmjs.com)
 ```sh
-bash <(curl -s https://raw.githubusercontent.com/Sayrix/AutoInstall/main/nodejs16.x.sh)
+bash <(curl -s https://raw.githubusercontent.com/Sayrix/AutoInstall/main/nodejs17.x-yarn.sh)
 ```
 
 ### NodeJS v17.x & [NPM](https://npmjs.com)
 ```sh
 bash <(curl -s https://raw.githubusercontent.com/Sayrix/AutoInstall/main/nodejs17.x.sh)
-```
-
-### NodeJS LTS (v14) & [NPM](https://npmjs.com)
-```sh
-bash <(curl -s https://raw.githubusercontent.com/Sayrix/AutoInstall/main/nodejs-lts.sh)
-```
-
-
-### NodeJS LTS (v14) & [YARN](https://yarnpkg.com)
-```sh
-bash <(curl -s https://raw.githubusercontent.com/Sayrix/AutoInstall/main/nodejslts-yarn.sh)
 ```
 
 ### Java 16
