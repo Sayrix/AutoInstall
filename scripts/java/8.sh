@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo apt update -y
 sudo apt install apt-transport-https ca-certificates wget dirmngr gnupg software-properties-common -y
 wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | sudo apt-key add -

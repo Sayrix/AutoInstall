@@ -1,3 +1,4 @@
+#!/bin/bash
 cd ~
 sudo apt remove cmdtest -y
 curl -sL https://deb.nodesource.com/setup_current.x | sudo bash -

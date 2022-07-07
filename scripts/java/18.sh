@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo apt update -y
 sudo apt -y install wget
 wget https://download.oracle.com/java/18/latest/jdk-18_linux-x64_bin.deb
