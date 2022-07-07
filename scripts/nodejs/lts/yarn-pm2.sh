@@ -7,11 +7,14 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 sudo apt install yarn -y
 yarn global add pm2
 
+clear
+
 node_version=$(node -v)
 yarn_version=$(yarn -v)
 pm2_version=$(pm2 -v)
 
-printf "Thanks for using this script! You can leave a star on https://github.com/Sayrix/AutoInstall"
-printf "Node version: $node_version"
-printf "Yarn version: $yarn_version"
-printf "PM2 version: $pm2_version"
+printf "\nThanks for using this script! You can leave a star on https://github.com/Sayrix/AutoInstall
+Node version: $node_version
+Yarn version: $yarn_version
+PM2 version: $pm2_version
+"
