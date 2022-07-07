@@ -60,7 +60,7 @@ printf "\n\n\e[38;2;85;85;255;49m▄\e[48;2;85;255;255m   \e[38;2;85;255;255;48;
 Select one option using up/down keys and enter to confirm:\n
 ";
 
-options=("Java 8" "Java 11" "Java 17" "Java 18" "Java 19")
+options=("Java 8" "Java 11" "Java 17" "Java 18")
 
 select_option "${options[@]}"
 choice=$?
@@ -81,8 +81,4 @@ elif [ $choice -eq 3 ]; then
   clear
   printf "\n\tYou have selected Java 18\n\n"
   bash <(curl -s https://autoinstall.pages.dev/scripts/java/18.sh)
-elif [ $choice -eq 4 ]; then
-  clear
-  printf "\n\tYou have selected Java 19\n\n"
-  bash <(curl -s https://autoinstall.pages.dev/scripts/java/19.sh)
 fi
