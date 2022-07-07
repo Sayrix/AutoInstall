@@ -2,9 +2,9 @@ sudo apt update -y
 sudo apt -y install wget
 wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.deb
 sudo apt install ./jdk-17_linux-x64_bin.deb -y
-cat <<EOF | sudo tee /etc/profile.d/jdk.sh
-export JAVA_HOME=/usr/lib/jvm/jdk-17/
-export PATH=\$PATH:\$JAVA_HOME/bin
+cat <<EOF | sudo tee /etc/profile.d/jdk.sh \
+export JAVA_HOME=/usr/lib/jvm/jdk-17/ \
+export PATH=\$PATH:\$JAVA_HOME/bin \
 EOF
 source /etc/profile.d/jdk.sh
 
