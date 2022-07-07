@@ -1,5 +1,3 @@
-#!/usr/bin/bash
-
 # Thanks to https://unix.stackexchange.com/a/415155 for the select menu code
 
 function select_option {

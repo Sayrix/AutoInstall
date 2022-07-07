@@ -7,19 +7,9 @@ add-apt-repository : command not found
 
 ```sudo apt-get install software-properties-common```
 
-### Install NodeJS v17.x and [PM2](https://pm2.io)
+### NodeJS AutoInstall
 ```sh
-bash <(curl -s https://raw.githubusercontent.com/Sayrix/AutoInstall/main/nodejs17.x-pm2.sh)
-```
-
-### NodeJS v17.x & [YARN](https://npmjs.com)
-```sh
-bash <(curl -s https://raw.githubusercontent.com/Sayrix/AutoInstall/main/nodejs17.x-yarn.sh)
-```
-
-### NodeJS v17.x & [NPM](https://npmjs.com)
-```sh
-bash <(curl -s https://raw.githubusercontent.com/Sayrix/AutoInstall/main/nodejs17.x.sh)
+bash <(curl -s https://autoinstall.pages.dev/nodejs.sh)
 ```
 
 ### Java 17
