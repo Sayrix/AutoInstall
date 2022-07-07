@@ -1,4 +1,5 @@
 cd ~
+sudo apt remove cmdtest -y
 curl -sL https://deb.nodesource.com/setup_17.x | sudo bash -
 sudo apt install nodejs -y
 curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
