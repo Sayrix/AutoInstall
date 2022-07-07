@@ -72,9 +72,9 @@ if [ $choice -eq 0 ]; then
 elif [ $choice -eq 1 ]; then
   clear
   printf "\n\tYou have selected Node.JS Current\n\n"
-  bash <(curl -s https://autoinstall.pages.dev/scripts/nodejs/current/pm2.sh)
+  bash <(curl -s https://autoinstall.pages.dev/scripts/nodejs/current/install.sh)
 elif [ $choice -eq 2 ]; then
   clear
   printf "\n\tYou have selected Node.JS 17.x\n\n"
-  bash <(curl -s https://autoinstall.pages.dev/scripts/nodejs/17/yarn.sh)
+  bash <(curl -s https://autoinstall.pages.dev/scripts/nodejs/17/install.sh)
 fi
