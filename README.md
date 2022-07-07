@@ -1,5 +1,6 @@
 # AutoInstall
-Several auto install scripts will be resented here
+![logo](https://raw.githubusercontent.com/Sayrix/AutoInstall/main/img/logo.png)
+
 ## These scripts are only functional on Debian and Ubuntu!
 
 add-apt-repository : command not found
