@@ -12,7 +12,7 @@ add-apt-repository : command not found
 bash <(curl -s https://autoinstall.pages.dev/nodejs.sh)
 ```
 
-### Java 17
+### Java AutoInstall
 ```sh
-bash <(curl -s https://raw.githubusercontent.com/Sayrix/AutoInstall/main/java17.sh)
+bash <(curl -s https://autoinstall.pages.dev/java.sh)
 ```
