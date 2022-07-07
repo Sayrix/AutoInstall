@@ -60,21 +60,25 @@ printf "\n\n\e[38;2;85;85;255;49m▄\e[48;2;85;255;255m   \e[38;2;85;255;255;48;
 Select one option using up/down keys and enter to confirm:\n
 ";
 
-options=("Node.JS LTS (16.x)" "Node.JS Current (18.x)" "Node.JS 17.x *no longer actively supported*")
+options=("Node.JS Current" "Node.JS Current with pm2" "Node.JS Current with yarn" "Node.JS Current with yarn & pm2")
 
 select_option "${options[@]}"
 choice=$?
 
 if [ $choice -eq 0 ]; then
   clear
-  printf "\n\tYou have selected Node.JS LTS\n\n"
-  bash <(curl -s https://autoinstall.pages.dev/scripts/nodejs/lts/install.sh)
+  printf "\n\tYou have selected Node.JS Current\n\n"
+  bash <(curl -s https://autoinstall.pages.dev/scripts/nodejs/current/current.sh)
 elif [ $choice -eq 1 ]; then
   clear
-  printf "\n\tYou have selected Node.JS Current\n\n"
+  printf "\n\tYou have selected Node.JS Current with pm2\n\n"
   bash <(curl -s https://autoinstall.pages.dev/scripts/nodejs/current/pm2.sh)
 elif [ $choice -eq 2 ]; then
   clear
-  printf "\n\tYou have selected Node.JS 17.x\n\n"
-  bash <(curl -s https://autoinstall.pages.dev/scripts/nodejs/17/yarn.sh)
+  printf "\n\tYou have selected Node.JS Current with yarn\n\n"
+  bash <(curl -s https://autoinstall.pages.dev/scripts/nodejs/current/yarn.sh)
+elif [ $choice -eq 3 ]; then
+  clear
+  printf "\n\tYou have selected Node.JS Current with yarn & pm2\n\n"
+  bash <(curl -s https://autoinstall.pages.dev/scripts/nodejs/current/yarn-pm2.sh)
 fi
