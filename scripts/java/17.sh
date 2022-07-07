@@ -6,6 +6,7 @@ cat <<EOF | sudo tee /etc/profile.d/jdk.sh
 export JAVA_HOME=/usr/lib/jvm/jdk-17/
 export PATH=\$PATH:\$JAVA_HOME/bin
 EOF
+source /etc/profile.d/jdk.sh
 
 clear
 

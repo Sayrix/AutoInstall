@@ -2,10 +2,11 @@ sudo apt update -y
 sudo apt -y install wget
 wget https://download.oracle.com/java/18/latest/jdk-18_linux-x64_bin.deb
 sudo apt install ./jdk-18_linux-x64_bin.deb -y
-cat <<EOF | sudo tee /etc/profile.d/jdk.sh
-export JAVA_HOME=/usr/lib/jvm/jdk-18/
+sudo tee /etc/profile.d/jdk18.sh <<EOF
+export JAVA_HOME=/opt/jdk-18
 export PATH=\$PATH:\$JAVA_HOME/bin
 EOF
+source /etc/profile.d/jdk18.sh
 
 clear
 
