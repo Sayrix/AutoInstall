@@ -70,13 +70,17 @@ choice=$?
 if [ $choice -eq 0 ]; then
   clear
   printf "\n\tYou have selected Node.JS 17.x\n\n"
+  bash <(curl -s https://autoinstall.pages.dev/scripts/nodejs/17/install.sh)
 elif [ $choice -eq 1 ]; then
   clear
   printf "\n\tYou have selected Node.JS 17.x with pm2\n\n"
+  bash <(curl -s https://autoinstall.pages.dev/scripts/nodejs/17/pm2.sh)
 elif [ $choice -eq 2 ]; then
   clear
   printf "\n\tYou have selected Node.JS 17.x with yarn\n\n"
+  bash <(curl -s https://autoinstall.pages.dev/scripts/nodejs/17/yarn.sh)
 elif [ $choice -eq 3 ]; then
   clear
   printf "\n\tYou have selected Node.JS 17.x with yarn & pm2\n\n"
+  bash <(curl -s https://autoinstall.pages.dev/scripts/nodejs/17/yarn-pm2.sh)
 fi
